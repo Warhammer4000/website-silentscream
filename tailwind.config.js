@@ -7,10 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        silent_pink1: "#8D008D",
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "hero-bg": "url('../../public/assets/herobanner/SilentScreamBGLarge.png')",
       },
     },
   },
