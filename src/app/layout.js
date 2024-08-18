@@ -1,7 +1,7 @@
-import { Inter } from "next/font/google";
+import { Didact_Gothic } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const didact_gothic = Didact_Gothic({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
   title: "Silent Scream",
@@ -12,9 +12,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="" sizes="any" />
+        <link rel="icon" href="/assets/silentscreamfav.png" sizes="any" />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={didact_gothic.className}>{children}</body>
     </html>
   );
 }
