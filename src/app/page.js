@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Director from "./components/Director";
 import Hero from "./components/Hero";
 
 export default function Home() {
@@ -11,7 +12,8 @@ export default function Home() {
       <div>
         {/*About Section */}
         <About/>
-       {/*Next Section */}
+        {/*Next Section */}
+        <Director/>
       </div>
     </div>
   );

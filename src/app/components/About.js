@@ -11,7 +11,7 @@ const About = () => {
                 </p>
             </div>
             <div className="md:hidden w-full h-[400px] bg-bg-mob-s bg-center bg-no-repeat flex justify-center items-center">
-                <p className="px-12 text-[20px] text-justify">
+                <p className="px-12 text-[20px] text-justify leading-10">
                 Silent Scream is a stealth cooking game set in a creepy restaurant
                 where you must serve customers while secretly feeding some of them
                 to an alien entity in your basement.

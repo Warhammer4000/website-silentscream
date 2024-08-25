@@ -16,6 +16,8 @@ module.exports = {
         "bg-web-s": "url('../../public/assets/webbgS.png')",
         "bg-web-m": "url('../../public/assets/webbgM.png')",
         "bg-mob-s": "url('../../public/assets/mobbgS.png')",
+        "bg-mob-m": "url('../../public/assets/mobbgM.png')",
+        "bg-mob-l": "url('../../public/assets/mobbgL.png')",
       },
     },
   },
