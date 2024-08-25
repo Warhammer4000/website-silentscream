@@ -17,12 +17,13 @@ const About = () => {
                 to an alien entity in your basement.
                 </p>
             </div>
-            <div className="flex justify-center">
+            <div className="flex justify-center mt-8 md:mt-0 mb-8">
                 <button
-                className="w-[200px] h-[50px] bg-button-bg1 bg-contain bg-center bg-no-repeat text-silent_pink1"
+                className="w-[320px] 2xl:w-[380px] h-[50px] 2xl:h-[100px] bg-button-bg1 bg-cover bg-center bg-no-repeat text-silent_pink1
+                 text-[24px] 2xl:text-[30px] font-black hover:text-black transform transition-transform duration-300 hover:scale-105"
                 onClick={() => {
                 window.open(
-                "https://youtu.be/KRMYjMlp89A?si=1TY2-dlx-mLjCK1P",
+                "https://www.youtube.com/live/wAi-OXz83yI?si=PqW8TZEarLMkJdUf",
                 "_blank"
                  );
                 }}

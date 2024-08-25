@@ -10,7 +10,8 @@ export default function Home() {
       </div>
       <div>
         {/*About Section */}
-       <About/>
+        <About/>
+       {/*Next Section */}
       </div>
     </div>
   );
