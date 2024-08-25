@@ -1,3 +1,5 @@
+import Image from "next/image";
+import silentscreamtag from "../../../public/assets/silentscreamfav.png";
 
 const Director = () => {
     return (
@@ -21,6 +23,15 @@ const Director = () => {
                  Hope you enjoy it. Looking forward to hearing form you.
                 </p>
                 <a className="mx-8 mt-4 text-[22px] font-black text-center">Mushfiq Iqbal</a>
+            </div>
+            <div className="flex justify-center items-center w-full h-[200px] md:h-[250px]">
+                <Image
+                    src={silentscreamtag}
+                    width={769}
+                    height={764}
+                    alt="Silent Scream Ta"
+                    className="w-[150px] md:w-[200px] h-[150px] md:h-[200px]"
+                />
             </div>
         </div>
     );
