@@ -23,7 +23,7 @@ const About = () => {
                  text-[24px] 2xl:text-[30px] font-black hover:text-black transform transition-transform duration-300 hover:scale-105"
                 onClick={() => {
                 window.open(
-                "https://www.youtube.com/live/wAi-OXz83yI?si=PqW8TZEarLMkJdUf",
+                "https://youtu.be/KRMYjMlp89A?si=2yz4pVL5OeL7deV3",
                 "_blank"
                  );
                 }}

@@ -24,13 +24,13 @@ const Director = () => {
                 </p>
                 <a className="mx-8 mt-4 text-[22px] font-black text-center">Mushfiq Iqbal</a>
             </div>
-            <div className="flex justify-center items-center w-full h-[200px] md:h-[250px]">
+            <div className="flex justify-center items-center w-full h-[120px] md:h-[180px]">
                 <Image
                     src={silentscreamtag}
                     width={769}
                     height={764}
                     alt="Silent Scream Ta"
-                    className="w-[150px] md:w-[200px] h-[150px] md:h-[200px]"
+                    className="w-[100px] md:w-[150px] h-[100px] md:h-[150px]"
                 />
             </div>
         </div>

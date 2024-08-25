@@ -1,6 +1,7 @@
 import About from "./components/About";
 import Director from "./components/Director";
 import Hero from "./components/Hero";
+import Screenshots from "./components/Screenshots";
 
 export default function Home() {
   return (
@@ -12,8 +13,10 @@ export default function Home() {
       <div>
         {/*About Section */}
         <About/>
-        {/*Next Section */}
+        {/*Diretor Section */}
         <Director/>
+        {/*Screenshot Section */}
+        <Screenshots/>
       </div>
     </div>
   );
