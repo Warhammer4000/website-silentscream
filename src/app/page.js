@@ -1,4 +1,5 @@
 import About from "./components/About";
+import AboutStudio from "./components/AboutStudio";
 import Director from "./components/Director";
 import Hero from "./components/Hero";
 import Screenshots from "./components/Screenshots";
@@ -15,14 +16,21 @@ export default function Home() {
       <div>
         {/*About Section */}
         <About/>
+
         {/*Diretor Section */}
         <Director/>
+
         {/*Screenshot Section */}
         <Screenshots/>
+
         {/*Steam Section */}
-        <Steam/>
-        {/*Screenshot Section */}
+        <Steam />
+
+        {/*Team Section */}
         <Team/>
+
+        {/*Studio About Section */}
+        <AboutStudio/>
       </div>
     </div>
   );
