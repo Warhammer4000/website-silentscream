@@ -32,13 +32,13 @@ const Team = () => {
 
                     {/* Project Manager & Art Director */}
                     <div className="grid grid-cols-1 md:grid-cols-4 md:gap-20">
-                        <div className="h-[80px] md:h-[150px] flex flex-col md:col-start-2 justify-start items-center">
+                        <div className="h-[80px] md:h-[120px] flex flex-col md:col-start-2 justify-start items-center">
                             <h1 className="text-[22px] font-bold text-silent_pink1">
                                 Project Manager
                             </h1>
                             <p className="text-[20px] text-white">Ziad Mohib</p>
                         </div>
-                        <div className="h-[80px] md:h-[150px] flex flex-col md:col-start-3 justify-start items-center">
+                        <div className="h-[80px] md:h-[120px] flex flex-col md:col-start-3 justify-start items-center">
                             <h1 className="text-[22px] text-silent_pink1 font-bold">
                                 Art Director
                             </h1>
@@ -48,19 +48,19 @@ const Team = () => {
 
                     {/* Audio Programmer - Artist - Level Designer */}
                     <div className="grid grid-cols-1 md:grid-cols-3 md:gap-20">
-                         <div className="h-[80px] md:h-[150px] flex flex-col justify-start items-center">
+                         <div className="h-[80px] md:h-[120px] flex flex-col justify-start items-center">
                             <h1 className="text-[22px] font-bold text-silent_pink1">
                                 Level Designers
                             </h1>
                             <p className="text-[20px] text-white">Mushfiq Iqbal</p>
                         </div>
-                        <div className="h-[80px] md:h-[150px] flex flex-col justify-start items-center">
+                        <div className="h-[80px] md:h-[120px] flex flex-col justify-start items-center">
                             <h1 className="text-[22px] font-bold text-silent_pink1">
                                 Lead Artist
                             </h1>
                             <p className="text-[20px] text-white">Mushfiq Iqbal</p>
                         </div>
-                        <div className="h-[80px] md:h-[150px] flex flex-col justify-start items-center">
+                        <div className="h-[80px] md:h-[120px] flex flex-col justify-start items-center">
                             <h1 className="text-[22px] font-bold text-silent_pink1">
                                 Audio Programmer
                             </h1>

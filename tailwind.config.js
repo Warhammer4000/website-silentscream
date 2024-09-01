@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         silent_pink1: "#8D008D",
         silent_pink2: "#840909",
-        silent_bg1: "#FFFFFF",
+        silent_bg1: "#999999",
       },
       backgroundImage: {
         "hero-bg": "url('../../public/assets/herobanner/SilentScreamBGLarge.png')",
@@ -21,6 +21,7 @@ module.exports = {
         "bg-mob-s": "url('../../public/assets/mobbgS.png')",
         "bg-mob-m": "url('../../public/assets/mobbgM.png')",
         "bg-mob-l": "url('../../public/assets/mobbgL.png')",
+        "bg-skull": "url('../../public/assets/silentScreamSkull.png')",
       },
     },
   },

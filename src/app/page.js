@@ -1,7 +1,9 @@
 import About from "./components/About";
+import AboutStudio from "./components/AboutStudio";
 import Director from "./components/Director";
 import Hero from "./components/Hero";
 import Screenshots from "./components/Screenshots";
+import Steam from "./components/Steam";
 import Team from "./components/Team";
 
 export default function Home() {
@@ -14,12 +16,24 @@ export default function Home() {
       <div>
         {/*About Section */}
         <About/>
+
         {/*Diretor Section */}
         <Director/>
+
         {/*Screenshot Section */}
         <Screenshots/>
-        {/*Screenshot Section */}
-        <Team/>
+
+        <div className="bg-bg-skull bg-contain md:bg-cover bg-center md:bg-left bg-no-repeat">
+
+            {/*Steam Section */}
+            <Steam />
+
+            {/*Team Section */}
+            <Team/>
+
+            {/*Studio About Section */}
+            <AboutStudio/>
+        </div>
       </div>
     </div>
   );
