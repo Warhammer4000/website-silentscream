@@ -4,7 +4,7 @@ import silentscreamtag from "../../../public/assets/silentscreamfav.png";
 const Director = () => {
     return (
         <div>
-            <div className="hidden md:flex md:flex-col w-full md:h-[600px] bg-bg-web-m bg-center bg-no-repeat  justify-center items-center">
+            <div className="hidden md:flex md:flex-col w-full md:h-[600px] bg-bg-web-m bg-center bg-no-repeat justify-center items-center">
                 <h1 className="mx-8 md:mb-8 mb-4 text-[30px] font-black text-center">WORDS FROM THE GAME DIRECTOR</h1>
                 <p className="md:px-28 2xl:px-[360px] md:text-[24px] 2xl:text-[28px] text-justify">
                 Silent Scream is a stealth cooking game where a fast-food restaurant worker sacrifices his customers for an 

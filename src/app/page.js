@@ -2,6 +2,7 @@ import About from "./components/About";
 import Director from "./components/Director";
 import Hero from "./components/Hero";
 import Screenshots from "./components/Screenshots";
+import Steam from "./components/Steam";
 import Team from "./components/Team";
 
 export default function Home() {
@@ -18,6 +19,8 @@ export default function Home() {
         <Director/>
         {/*Screenshot Section */}
         <Screenshots/>
+        {/*Steam Section */}
+        <Steam/>
         {/*Screenshot Section */}
         <Team/>
       </div>
