@@ -23,14 +23,17 @@ export default function Home() {
         {/*Screenshot Section */}
         <Screenshots/>
 
-        {/*Steam Section */}
-        <Steam />
+        <div className="bg-bg-skull bg-contain md:bg-cover bg-center md:bg-left bg-no-repeat">
 
-        {/*Team Section */}
-        <Team/>
+            {/*Steam Section */}
+            <Steam />
 
-        {/*Studio About Section */}
-        <AboutStudio/>
+            {/*Team Section */}
+            <Team/>
+
+            {/*Studio About Section */}
+            <AboutStudio/>
+        </div>
       </div>
     </div>
   );
