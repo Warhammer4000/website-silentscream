@@ -1,6 +1,7 @@
 import About from "./components/About";
 import AboutStudio from "./components/AboutStudio";
 import Director from "./components/Director";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Screenshots from "./components/Screenshots";
 import Steam from "./components/Steam";
@@ -34,6 +35,9 @@ export default function Home() {
             {/*Studio About Section */}
             <AboutStudio/>
         </div>
+
+        {/* Footer */}
+        <Footer/>
       </div>
     </div>
   );

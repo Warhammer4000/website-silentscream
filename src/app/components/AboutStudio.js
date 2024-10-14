@@ -9,13 +9,19 @@ const AboutStudio = () => {
                 <div className="flex flex-col md:flex-row justify-center items-center w-full md:w-[1360px] h-[617px] md:h-[600px]
                     bg-bg-mob-m md:bg-bg-web-m bg-no-repeat bg-center gap-10 md:gap-9">
                     <div className="md:w-2/5 flex justify-center items-center">
-                        <Image
-                            src={Studio23logoBlack}
-                            width={196}
-                            height={154}
-                            alt="Studio 23 Logo"
-                            className="w-[75px] md:w-[196px] h-[62px] md:h-[154px]"
-                        />
+                        <a 
+                            href="https://www.studio-23.xyz/" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            <Image
+                                src={Studio23logoBlack}
+                                width={196}
+                                height={154}
+                                alt="Studio 23 Logo"
+                                className="w-[75px] md:w-[196px] h-[62px] md:h-[154px]"
+                            />
+                        </a>
                     </div>
                     <div className="flex flex-col gap-8 md:gap-4 md:w-3/5 mr-0 md:mr-5">
                         <h1 className="text-[20px] md:text-[40px] font-bold text-silent2_button_text text-center justify-center items-center">
